@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'docker build -t raghusai/service:v1 .'
+                sh 'docker build -t raghusai/adservice:v1 .'
             }
         }
         stage ("Push"){
